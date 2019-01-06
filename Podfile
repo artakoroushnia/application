@@ -12,7 +12,14 @@ pod 'Firebase/Auth'
 pod 'Firebase/Database'
 pod 'Firebase/Storage'
 pod 'FirebaseUI/Storage'
-
+pod 'Firebase/Functions'
+pod 'Firebase/Messaging'
+pod 'SwiftKeychainWrapper'
+pod 'OneSignal', '>= 2.6.2', '< 3.0'
+pod 'Reachability'
+pod 'MDNotificationView'
+pod 'Fabric', '~> 1.9.0
+pod 'Crashlytics', '~> 3.12.0'
 
   target 'applicationTests' do
     inherit! :search_paths
